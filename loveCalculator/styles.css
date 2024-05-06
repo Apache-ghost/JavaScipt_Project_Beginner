@@ -1,0 +1,44 @@
+/* styles.css */
+
+.container {
+    text-align: center;
+    background-color: #fceaff;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  .love-calculator {
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  button {
+    background-color: #FF1493;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+  }
