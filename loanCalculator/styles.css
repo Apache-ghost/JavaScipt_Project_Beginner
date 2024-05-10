@@ -1,0 +1,79 @@
+body{
+    background-color: plum;
+}
+.container{
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 2px solid #1e5f5a;
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px rgba(0,0,0, 0.2);
+    
+}
+h2{
+    margin-top: 0;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label{
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    color: #000;
+
+}
+
+.Calcu{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input [type="number"],
+select{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+}
+#calculateBtn
+{
+    width: 20%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#interestrate{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+}
+#loanamount{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+}
+#loanterm{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    margin-bottom: 10px;
+}
