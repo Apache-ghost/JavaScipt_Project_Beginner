@@ -1,0 +1,63 @@
+body {
+    margin: 200px;
+    background-color: rgba(0, 195, 255, 0.11);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+  
+  .container {
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Added padding for better spacing */
+  }
+  
+  #inputText {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Added width to fill the container */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    width: 80px;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  #result {
+    margin-top: 20px; /* Added margin to create space between the button and the result */
+    font-weight: bold;
+  }
+  
+  #checkButton {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #checkButton:hover {
+    background-color: #002fffcc;
+  }
